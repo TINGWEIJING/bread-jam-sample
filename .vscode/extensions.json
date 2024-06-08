@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "ms-vscode.vscode-typescript-next",
+        "ms-vscode.cpptools",
+        "dart-code.dart-code",
+        "redhat.java",
+        "ms-python.python",
+        "julialang.language-julia",
+        "sumneko.lua",
+        "reditorsupport.r",
+        "shopify.ruby-lsp",
+        "rust-lang.rust-analyzer",
+        "golang.go",
+        "ms-dotnettools.csharp"
+    ]
+}
