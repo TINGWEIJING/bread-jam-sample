@@ -36,7 +36,7 @@ int main() {
 
     double taxes = 300.0;
     double netProfit = calculateNetProfit(transactions, taxes);
-    std::cout << "Net Profit: $" << netProfit << std::endl;
+    // std::cout << "Net Profit: $" << netProfit << std::endl;
 
     return 0;
 }

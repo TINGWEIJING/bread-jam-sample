@@ -22,7 +22,6 @@ public class Program
     {
         decimal totalIncome = 0m;
         decimal totalExpenses = 0m;
-
         foreach (var transaction in transactions)
         {
             if (transaction.TransactionType == TransactionType.Income)
@@ -34,7 +33,6 @@ public class Program
                 totalExpenses += transaction.Amount;
             }
         }
-
         decimal netIncome = totalIncome - totalExpenses;
         decimal netProfit = netIncome - taxes;
         return netProfit;
